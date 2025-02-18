@@ -1,0 +1,173 @@
+.faster-header,
+.audience-header {
+    font-weight: 500;
+    font-size: 52px;
+    line-height: 50px;
+}
+.module-create div,
+.module-content div,
+.module-followers div {
+    font-weight: 400;
+    font-size: 38px;
+    letter-spacing: -2px;
+    line-height: 34px;
+}
+.module-accounts div,
+.module-posting div,
+.schedule-header {
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: -2px;
+    line-height: 23px;
+}
+.faster-text,
+.schedule-text,
+.audience-text {
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.module-create img {
+    margin-top: 20px;
+    width: 180px;
+}
+.module-create span {
+    color: hsl(256, 67%, 59%);
+}
+
+.module-content img {
+    width: 180px;
+    margin-top: 40px;
+}
+
+.faster-header {
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+}
+.faster-span-time {
+    color: hsl(39, 100%, 71%);
+}
+.faster-span-faster {
+    font-style: italic;
+}
+.module-faster img {
+    width: 170px;
+    margin-top: 25px;
+    margin-bottom: 8px;
+}
+.faster-text {
+    color: hsl(254, 88%, 90%);
+}
+
+.module-accounts img {
+    width: 280px;
+}
+.module-accounts div {
+    margin-top: 8px;
+}
+
+.module-posting div {
+    margin-bottom: 10px;
+}
+.module-posting img {
+    width: 190px;
+}
+
+.schedule-header {
+    margin-bottom: 15px;
+}
+.module-schedule img {
+    width: 340px;
+}
+.schedule-text {
+    margin-top: 15px;
+}
+
+.audience-header span {
+    position: relative;
+    top: -4px;
+}
+.audience-text {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.module-audience img{
+    width: 150px;
+}
+
+.module-followers img {
+    width: 190px;
+}
+.module-followers div {
+    color: hsl(0, 0%, 100%);
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    .faster-header,
+    .audience-header {
+        font-weight: 500;
+        font-size: 46px;
+        line-height: 46px;
+    }
+    .module-accounts div,
+    .module-posting div,
+    .schedule-header,
+    .module-create div,
+    .module-content div,
+    .module-followers div {
+        font-weight: 500;
+        font-size: 26px;
+        letter-spacing: -2px;
+        line-height: 23px;
+    }
+    .faster-text,
+    .schedule-text,
+    .audience-text {
+        font-weight: 400;
+        letter-spacing: -0.5px;
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .module-create img {
+        margin-top: 20px;
+        width: 160px;
+    }
+    .module-create span {
+        color: hsl(256, 67%, 59%);
+    }
+
+    .module-content img {
+        width: 180px;
+        margin-top: 20px;
+    }
+
+    .module-faster img {
+        width: 150px;
+        margin-top: 20px;
+    }
+
+    .module-posting img {
+        width: 200px;
+    }
+
+    .module-schedule img {
+        width: 270px;
+    }
+    .schedule-text {
+        text-align: center;
+    }
+
+    .audience-text {
+        margin-bottom: 20px;
+    }
+
+    .module-followers div {
+        width: 180px;
+        text-align: center;
+        margin-top: 30px;
+    }
+}

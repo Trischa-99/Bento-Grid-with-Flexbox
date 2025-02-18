@@ -1,0 +1,126 @@
+.container {
+    display: flex;
+}
+.container-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container-bento-grid-hor {
+    flex-direction: row;
+}
+.container-left-ver {
+    flex-direction: column;
+}
+.container-right-ver {
+    flex-direction: column;
+}
+.container-right-top-hor {
+    flex-direction: row;
+}
+.container-middle-top-ver {
+    flex-direction: column;
+}
+.container-middle-middle-hor {
+    flex-direction: row;
+}
+.container-bottom-hor {
+    flex-direction: row;
+}
+
+.module {
+    margin: 15px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.module-create {
+    background-color: hsl(31, 66%, 93%);
+    flex: 1;
+    width: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.module-content {
+    background-color: hsl(39, 100%, 71%);
+    flex: 1;
+    width: 190px;
+}
+.module-faster {
+    background-color: hsl(256, 67%, 59%);
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 230px;
+}
+.module-accounts {
+    background-color: hsl(0, 0%, 100%);
+    width: 190px;
+    height: 170px;
+    overflow: hidden;
+}
+.module-posting {
+    background-color: hsl(39, 100%, 71%);
+    width: 190px;
+    height: 170px;
+    overflow: hidden;
+}
+.module-schedule {
+    background-color: hsl(254, 88%, 90%);
+    width: 190px;
+    overflow: hidden;
+}
+.module-audience {
+    background-color: hsl(0, 0%, 100%);
+    width: 190px;
+    height: 170px;
+}
+.module-followers {
+    background-color: hsl(256, 67%, 59%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 450px;
+}
+
+@media screen and (max-width: 1000px) {
+    .module {
+        width: 280px;
+        height: auto;
+    }
+    .module-posting {
+        height: 170px;
+    }
+    .container-all {
+        height: auto;
+    }
+    .container-bento-grid-hor {
+        flex-direction: column-reverse;
+    }
+    .container-left-ver {
+        flex-direction: column;
+    }
+    .container-right-ver {
+        flex-direction: column;
+    }
+    .container-right-top-hor {
+        flex-direction: column;
+    }
+    .container-middle-top-ver {
+        flex-direction: column;
+    }
+    .container-middle-middle-hor {
+        flex-direction: column;
+    }
+    .container-bottom-hor {
+        flex-direction: column-reverse;
+    }
+    .module-followers {
+        flex-direction: column;
+        align-items: center;
+    }
+}
